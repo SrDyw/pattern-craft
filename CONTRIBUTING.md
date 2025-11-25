@@ -27,3 +27,7 @@ There are several ways you can contribute to this project:
 - Provide constructive feedback on open pull requests
 - Help maintain code quality and clarity
 - Test proposed changes and share your findings
+
+## Pull Request Process
+
+You can create a your contribution by following these steps in [README.md](README.md). For detailed setup instructions, see the [Setup Instructions section in README.md](README.md#setup-instructions).
