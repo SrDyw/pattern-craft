@@ -7,8 +7,8 @@ import { ChangeEvent, ChangeEventHandler, useEffect, useState } from 'react';
 import { ApiResponse, Product } from './debounce';
 
 export default function DebouncePage() {
-    // const [text, setDebounceText] = useDebounce({ delay: 500 });
-    const [text, setDebounceText] = useState("");
+    const [text, setDebounceText] = useDebounce({ delay: 500 });
+    // const [text, setDebounceText] = useState("");
     const [products, setProducts] = useState<Product[]>([]);
 
     useEffect(() => {
